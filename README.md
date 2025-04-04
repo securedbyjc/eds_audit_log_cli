@@ -15,13 +15,13 @@ A secure and lightweight command-line interface (CLI) tool built in Python for s
 
 ## 📁 Project Structure
 
-eds_audit_log_cli/ 
-│ 
-├── db_connector.py # Main CLI script (Insert/Fetch logs) 
-├── .env # Environment variables (DB credentials) 
-├── .gitignore # Hides .env and venv from Git 
-├── venv/ # Virtual environment 
-└── README.md # This file
+eds_audit_log_cli/
+├── db_connector.py     # Main CLI script (Insert/Fetch logs)
+├── .env                # Environment variables (DB credentials)
+├── .gitignore          # Hides .env and venv from Git
+├── venv/               # Virtual environment
+└── README.md           # This file
+
 
 🔐 Security Notes
 Sensitive credentials are loaded from .env using python-dotenv
@@ -30,14 +30,15 @@ Sensitive credentials are loaded from .env using python-dotenv
 
 Only safe to use on local test environments, not for production
 
-📚 Requirements
-Python 3.9+ (3.13 tested)
+📦 Requirements
+Python 3.9+ (Tested with Python 3.13.2)
 
 PostgreSQL (running locally or remote)
 
 psycopg2-binary
 
 python-dotenv
+
 
 🧠 Inspiration
 This CLI tool is part of EDS Labs, where Eagle Defense Systems prototypes internal security GRC utilities.
