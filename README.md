@@ -16,25 +16,32 @@ A secure and lightweight command-line interface (CLI) tool built in Python for s
 <pre> ### 📁 Project Structure ``` eds_audit_log_cli/ ├── db_connector.py # Main CLI script (Insert/Fetch logs) ├── .env # Environment variables (DB credentials) ├── .gitignore # Hides .env and venv from Git ├── venv/ # Virtual environment └── README.md # This file ``` </pre>
 
 
-🔐 Security Notes
-Sensitive credentials are loaded from .env using python-dotenv
 
-.env and venv/ are both ignored from Git tracking
+---
 
-Only safe to use on local test environments, not for production
+## 🔐 Security Notes
 
-📦 Requirements
-Python 3.9+ (Tested with Python 3.13.2)
+- Sensitive credentials are loaded from `.env` using `python-dotenv`
+- `.env` and `venv/` are both ignored from Git tracking
+- Only safe to use on **local test environments** — not for production
 
-PostgreSQL (running locally or remote)
+---
 
-psycopg2-binary
+## 🧰 Requirements
 
-python-dotenv
+- **Python 3.9+** (Tested with Python 3.13.2)  
+- **PostgreSQL** (running locally or remote)  
+- [`psycopg2-binary`](https://pypi.org/project/psycopg2-binary/)  
+- [`python-dotenv`](https://pypi.org/project/python-dotenv/)
 
+---
 
-🧠 Inspiration
-This CLI tool is part of EDS Labs, where Eagle Defense Systems prototypes internal security GRC utilities.
+## 💡 Inspiration
 
-🏷 Tags
-#PostgreSQL #CyberSecurity #PythonCLI #AuditLogs #EDSLabs #GRC #SecurityTools
+This CLI tool is part of **EDS Labs**, where **Eagle Defense Systems** prototypes internal security GRC utilities.
+
+---
+
+## 🏷️ Tags  
+`#PostgreSQL` `#CyberSecurity` `#PythonCLI` `#AuditLogs` `#EDSLabs` `#GRC` `#SecurityTools`
+
