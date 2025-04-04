@@ -13,14 +13,7 @@ A secure and lightweight command-line interface (CLI) tool built in Python for s
 
 ---
 
-## 📁 Project Structure
-
-eds_audit_log_cli/
-├── db_connector.py     # Main CLI script (Insert/Fetch logs)
-├── .env                # Environment variables (DB credentials)
-├── .gitignore          # Hides .env and venv from Git
-├── venv/               # Virtual environment
-└── README.md           # This file
+<pre> ### 📁 Project Structure ``` eds_audit_log_cli/ ├── db_connector.py # Main CLI script (Insert/Fetch logs) ├── .env # Environment variables (DB credentials) ├── .gitignore # Hides .env and venv from Git ├── venv/ # Virtual environment └── README.md # This file ``` </pre>
 
 
 🔐 Security Notes
